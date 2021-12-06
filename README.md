@@ -17,7 +17,7 @@
 
 如果你想学习 Python, 请访问 [here.](https://github.com/Python-World/Py-Resources)
 
-If you are new to Github and open source then, visit [here.](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6)
+如果你刚来Github.com, 并且打算在这开源项目, 请访问 [here.](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6)
 
 ## Follow 的步骤
 
