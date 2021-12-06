@@ -1,10 +1,11 @@
 from PyQt5.QtGui import QPixmap
 from PyQt5.QtCore import Qt
-from Ui_QrCode import *
+from Ui_QrCode import Ui_Form
 import sys
 from PyQt5.QtWidgets import QWidget, QApplication
 import qrcode
 from io import BytesIO
+
 class MyForm(QWidget, Ui_Form):
     def __init__(self):    
         super(MyForm, self).__init__()
