@@ -21,7 +21,7 @@
 
 ## Follow 的步骤
 
-- Select an issue and ask to be _assigned_ to it.
+- 选择一个问题.
 - 查看 [./projects](/projects/) 目录下的文件[*Script*]
 - 给这个仓库[*repository*]一个**Star**.
 - 在 [python-mini-projects](https://github.com/Python-World/python-mini-projects) 项目页面, 点击 **Fork** 按钮.
