@@ -4,7 +4,6 @@ from Ui_QrCode import *
 import sys
 from PyQt5.QtWidgets import QWidget, QApplication
 import qrcode
-from PIL.ImageQt import ImageQt
 from io import BytesIO
 class MyForm(QWidget, Ui_Form):
     def __init__(self):    
