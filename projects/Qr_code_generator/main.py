@@ -10,7 +10,7 @@ class MyForm(QWidget, Ui_Form):
     def __init__(self):    
         super(MyForm, self).__init__()
         self.setupUi(self)
-        self.resize(400, 300)
+        self.resize(500, 300)
         self.label.setAlignment(Qt.AlignCenter)
         self.btn.clicked.connect(self.btnstate)
         self.label.setScaledContents (True)
