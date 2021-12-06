@@ -13,32 +13,32 @@
 ![Stars](https://img.shields.io/github/stars/Python-World/python-mini-projects)
 ![License](https://img.shields.io/github/license/Python-World/python-mini-projects)
 
-A collection of simple python mini projects to enhance your Python skills.
+一些 python 小项目, 可以用来提高你的 Python 能力[*Python skills*].
 
-If you want to learn about python, visit [here.](https://github.com/Python-World/Py-Resources)
+如果你想学习 Python, 请访问 [here.](https://github.com/Python-World/Py-Resources)
 
 If you are new to Github and open source then, visit [here.](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6)
 
-## Steps To Follow
+## Follow 的步骤
 
 - Select an issue and ask to be _assigned_ to it.
-- Check existing scripts in the [projects](/projects/) directory.
-- **Star** this repository.
-- On the [python-mini-projects](https://github.com/Python-World/python-mini-projects) repo page, click the **Fork** button.
+- 查看 [./projects](/projects/) 目录下的文件[*Script*]
+- 给这个仓库[*repository*]一个**Star**.
+- 在 [python-mini-projects](https://github.com/Python-World/python-mini-projects) 项目页面, 点击 **Fork** 按钮.
     <br><img src="https://help.github.com/assets/images/help/repository/fork_button.jpg" title="Fork image" width="400"/>
-- **Clone** your forked repository to your local machine. This button will show you the URL to run.
+- 把 fork 出来的仓库克隆到本地机上. 点击下面的 **Code** 按钮会给出克隆需要的链接.
     <br><img src="https://docs.github.com/assets/images/help/repository/code-button.png" title="Code button" width="400"/>
 
-    For example, run this command inside your terminal:
+    例如, 在终端上运行如下代码:
 
     ```bash
     git clone https://github.com/<your-github-username>/python-mini-projects.git
     ```
 
-    **Replace \<your-github-username\>!**
+    **记得更换 \<your-github-username\> 的值!**
 
     Learn more about [forking](https://help.github.com/en/github/getting-started-with-github/fork-a-repo) and [cloning a repo](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
-- Before you make any changes, [keep your fork in sync](https://www.freecodecamp.org/news/how-to-sync-your-fork-with-the-original-git-repository/) to avoid merge conflicts:
+- 在修改之前, [keep your fork in sync](https://www.freecodecamp.org/news/how-to-sync-your-fork-with-the-original-git-repository/) 避免合并冲突:
 
     ```bash
     git remote add upstream https://github.com/Python-World/python-mini-projects.git
@@ -49,49 +49,46 @@ If you are new to Github and open source then, visit [here.](https://towardsdata
     
     Alternatively, GitHub also provides syncing now - click "Fetch upstream" at the top of your repo below "Code" button.
 
-- If you run into a **merge conflict**, you have to resolve the conflict. There are a lot of guides online, or you can try this one by [opensource.com](https://opensource.com/article/20/4/git-merge-conflict).
+- 如果有**合并冲突**(merge conflict), 你必须解决这些冲突. 网上有很多教程, [opensource.com](https://opensource.com/article/20/4/git-merge-conflict)就是其中一个.
 
-- Checkout to development branch (*name your branch according to the issue name*).
+-  签出开发分支[*Branch*] (*分支根据实际问题命名*).
 
     ```bash
     git checkout -b <branch-name>
     ```
 
-- Create a folder in
-  [projects directory](https://github.com/Python-World/python-mini-projects/tree/master/projects)
-  according to issue name.
-- Write your code and add to the respective folder in the projects directory, locally.
-- Don't forget to add a `README.md` in your folder, according to the
-   [README_TEMPLATE.](https://github.com/Python-World/python-mini-projects/blob/master/README_TEMPLATE.md)
-- Add the changes with `git add`, `git commit` ([write a good commit message](https://chris.beams.io/posts/git-commit/), if possible):
+- 根据实际问题(*issue name*)在[projects directory](https://github.com/Python-World/python-mini-projects/tree/master/projects)创建文件夹.
+- 将写的代码保存在上一步创建的相应项目文件夹中.
+- 不要忘记在你的项目文件夹中添加 `README.md` 文件, 文件内容应该参照 [README_TEMPLATE](https://github.com/Python-World/python-mini-projects/blob/master/README_TEMPLATE.md) 模板文件.
+- 使用 `git add`, `git commit` 等命令提交所有修改 ([write a good commit message](https://chris.beams.io/posts/git-commit/), if possible):
 
     ```bash
     git add -A
     git commit -m "<your message>"
     ```
 
-- Push the code _to your repository_.
+- 推送[*push*]代码到仓库中.
 
     ```bash
     git push origin <branch-name>
     ```
 
-- Go to the GitHub page of _your fork_, and **make a pull request**:
+- 打开Fork出来的GitHub界面, 然后 **make a pull request**:
 
     ![pull request image](https://help.github.com/assets/images/help/pull_requests/choose-base-and-compare-branches.png)
 
-    Read more about pull requests on the [GitHub help pages](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
-- Now wait, until one of us *reviews your Pull Request*! If there are any conflicts, you will get a notification.
+    在 [GitHub help pages](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) 中可以获得更多关于 pull requests 的信息.
+- 现在 只需要等待我们 *reviews your Pull Request*! 如果有冲突, 我们会提醒你.
 
-## README Template for scripts
+## README 文件模板
 
 [README Template](https://github.com/Python-World/python-mini-projects/blob/master/README_TEMPLATE.md)
 
-## Connect On Social media
+## 在社交网络上交流
 
 [Join WhatsApp group](https://chat.whatsapp.com/GlLTqQSbocLC23ntKU15O9)
 
-## Contributors ✨
+## 贡献者 ✨
 
 SR No   | Project | Author  
 --- | --- | ---
@@ -198,3 +195,4 @@ SR No   | Project | Author
 101 | [Whatsapp Bot](https://github.com/Python-World/python-mini-projects/tree/master/projects/whatsapp_Bot)| [urmil89](https://github.com/urmil89)
 102 | [Zip Bruter](https://github.com/Python-World/python-mini-projects/tree/master/projects/Zip_Bruter) | [Erdoğan YOKSUL](https://www.github.com/eredotpkfr)
 103 | [CountDown Timer](https://github.com/Python-World/python-mini-projects/tree/master/projects/Countdown_timer) | [Japneet Kalra](https://github.com/japneetsingh035)
+
